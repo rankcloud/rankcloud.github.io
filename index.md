@@ -18,7 +18,7 @@ paginate: 3
       <p class='posts-date'>{{ post.date | date: '%Y-%m-%d' }}</p>
     </div>
     <div class='panel-body'>
-      {{ post.content | truncate: 15 }}
+      {{ post.content | truncate: 200 }}
     </div>
     <p><a class="btn js-btn" href="{{ BASE_PATH }}{{ post.url }}">더 보기 &raquo;</a></p>
   </div>
