@@ -16,6 +16,12 @@ author :
   github : username
   twitter : username
   feedburner : feedname
+  
+links:
+  - title: Blog
+    url: /blog/
+  - title: Archive
+    url: /archive.html
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
